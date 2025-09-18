@@ -21,7 +21,7 @@ const About = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <blockquote className="text-xl italic border-l-4 border-portfolio-primary pl-4 mb-6">
-                "Motivated IT student with strong development skills and a creative eye for unique digital experiences."
+                "Motivated ITudent with strong development skills and a creative eye for unique digital experiences."
               </blockquote>
               
               <p className="mb-4 text-muted-foreground dark:text-gray-300">
