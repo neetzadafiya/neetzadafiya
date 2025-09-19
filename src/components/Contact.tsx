@@ -29,17 +29,17 @@ const Contact = () => {
 
     try {
       const templateParams = {
-        to_email: 'pritvekariya111@gmail.com',
+        to_email: 'neetzadafiya3016@gmail.com',
         from_name: formData.name,
         from_email: formData.email,
         message: formData.message,
       };
 
       await emailjs.send(
-        'service_wcyf5hp', // Replace with your EmailJS service ID
-        'template_q2pfit4', // Replace with your EmailJS template ID
+        'service_kutjpqe', // Replace with your EmailJS service ID
+        'template_1inwxer', // Replace with your EmailJS template ID
         templateParams,
-        'eEd6V48oWVIJLw50l' // Replace with your EmailJS public key
+        '_7hDyzGoaWcwLQMXl' // Replace with your EmailJS public key
       );
 
       toast({
@@ -82,7 +82,7 @@ const Contact = () => {
                 <Mail size={24} className="text-portfolio-primary dark:text-portfolio-accent" />
               </div>
               <h3 className="font-medium mb-1 dark:text-white">Email</h3>
-              <p className="text-sm text-muted-foreground text-center dark:text-gray-400">pritvekariya111@gmail.com</p>
+              <p className="text-sm text-muted-foreground text-center dark:text-gray-400">neetzadafiya3016@gmail.com</p>
             </motion.a>
             
             <motion.a
@@ -94,11 +94,11 @@ const Contact = () => {
                 <Phone size={24} className="text-portfolio-primary dark:text-portfolio-accent" />
               </div>
               <h3 className="font-medium mb-1 dark:text-white">Phone</h3>
-              <p className="text-sm text-muted-foreground dark:text-gray-400">+91 9574649662</p>
+              <p className="text-sm text-muted-foreground dark:text-gray-400">+91 9725312348</p>
             </motion.a>
             
             <motion.a
-              href="https://www.linkedin.com/in/prit-vekariya-3b2b23251/"
+              href="https://www.linkedin.com/in/prit-vekariya-3b2b23251"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

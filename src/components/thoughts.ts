@@ -1,23 +1,23 @@
 interface Thought {
   title: string;
   description: string;
-  icon: 'rocket' | 'code' | 'sparkles';
+  icon: 'figma' | 'research' | 'prototype';
 }
 
 export const inspirationalThoughts: Thought[] = [
   {
-    title: "Mobile Visionary",
-    description: "Transform ideas into seamless mobile experiences. Your vision deserves an app that changes lives and defines the future of technology.",
-    icon: "rocket"
+    title: "Human-Centered Design",
+    description: "I focus on designing with real users in mind — research-driven, empathetic, and measurable. Great products start with understanding people.",
+    icon: "research"
   },
   {
-    title: "Web Innovation",
-    description: "Elevate your digital presence with cutting-edge web solutions. Let's create immersive experiences that captivate and convert visitors into loyal customers.",
-    icon: "code"
+    title: "Pixel-Perfect Visuals",
+    description: "I craft clean visual systems and typography that communicate clearly and strengthen brand trust across devices.",
+    icon: "figma"
   },
   {
-    title: "Innovation Partner",
-    description: "Partner with a developer who turns ambitious visions into reality. Your next big idea deserves exceptional execution and innovative solutions.",
-    icon: "sparkles"
-  }
+    title: "Rapid Prototyping",
+    description: "I iterate fast with interactive prototypes to validate ideas early and reduce development risk.",
+    icon: "prototype"
+  },
 ];

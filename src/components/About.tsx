@@ -21,11 +21,11 @@ const About = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <blockquote className="text-xl italic border-l-4 border-portfolio-primary pl-4 mb-6">
-                "Motivated ITudent with strong development skills and a creative eye for unique digital experiences."
+                "UI/UX designer crafting clear, human-centered interfaces that solve real problems and delight users."
               </blockquote>
               
               <p className="mb-4 text-muted-foreground dark:text-gray-300">
-                I am a passionate developer focused on creating efficient and innovative software solutions. My journey in tech began with a curiosity about how digital products are built, and has evolved into a deep interest in mobile development, especially with Flutter, and backend development with Python.
+                I design intuitive, accessible experiences by combining user research, wireframing, and high-fidelity prototyping. I collaborate closely with developers to turn concepts into polished products using Figma, prototyping tools, and usability testing to validate design decisions.
               </p>
             </motion.div>
             
@@ -42,7 +42,7 @@ const About = () => {
                 <div className="pl-5 mt-2 border-l-2 border-portfolio-primary/30">
                   <h4 className="text-lg font-medium">Bachelor of Information Technology</h4>
                   <p className="text-muted-foreground dark:text-gray-400">P P Savani University (2022–2026)</p>
-                  <p className="dark:text-gray-300">CGPA: 7.4 / 10</p>
+                  <p className="dark:text-gray-300">CGPA: 7.7 / 10</p>
                 </div>
               </motion.div>
               
@@ -56,13 +56,15 @@ const About = () => {
                   Relevant Coursework
                 </h3>
                 <ul className="list-disc list-inside pl-5 mt-2 text-muted-foreground dark:text-gray-400">
-                  <li>Data Structures</li>
-                  <li>Database Management Systems</li>
-                  <li>Python Programming</li>
+                  <li>Web & Mobile App Design</li>
+                  <li>User Interface (UI) Design</li>
+                  <li>User Experience (UX) Design</li>
+                  <li>Wireframing & Prototyping</li>
+                  <li>Design Thinking</li>
                 </ul>
               </motion.div>
               
-              <motion.div 
+              {/* <motion.div 
                 className="p-6 rounded-2xl bg-white/70 backdrop-blur-sm border border-white/20 shadow-lg hover:shadow-portfolio-primary/10 transition-all duration-300 dark:bg-gray-800/50 dark:border-white/5 dark:hover:shadow-portfolio-accent/20"
                 whileHover={{ y: -5 }}
                 transition={{ type: "spring", stiffness: 300 }}
@@ -72,10 +74,11 @@ const About = () => {
                   Certifications
                 </h3>
                 <ul className="list-disc list-inside pl-5 mt-2 text-muted-foreground dark:text-gray-400">
-                  <li>AWS Cloud Services</li>
-                  <li>Joy of Programming with Python – NPTEL</li>
+                  <li>Google UX Design Professional Certificate</li>
+                  <li>Interaction Design Foundation — UX Fundamentals</li>
+                  <li>Figma: Advanced Prototyping</li>
                 </ul>
-              </motion.div>
+              </motion.div> */}
             </div>
           </div>
           
@@ -147,21 +150,21 @@ const About = () => {
               transition={{ type: "spring", stiffness: 300 }}
             >
               <h3 className="text-xl font-semibold mb-3 flex items-center">
-                <span className="bg-portfolio-primary/10 w-8 h-8 rounded-full flex items-center justify-center mr-2 text-portfolio-primary dark:bg-portfolio-primary/20">🧠</span>
-                Interests & Hobbies
+                <span className="bg-portfolio-primary/10 w-8 h-8 rounded-full flex items-center justify-center mr-2 text-portfolio-primary dark:bg-portfolio-primary/20">🎨</span>
+                Passions & Hobbies
               </h3>
               <ul className="space-y-2 text-muted-foreground dark:text-gray-400">
                 <li className="flex items-center">
-                  <span className="mr-2">🚀</span>
-                  <span>Exploring AI, IoT, Blockchain</span>
+                  <span className="mr-2">�</span>
+                  <span>User research & empathy interviews</span>
                 </li>
                 <li className="flex items-center">
-                  <span className="mr-2">📱</span>
-                  <span>Building Flutter Apps</span>
+                  <span className="mr-2">✏️</span>
+                  <span>Wireframing & interactive prototyping (Figma)</span>
                 </li>
                 <li className="flex items-center">
                   <span className="mr-2">🧪</span>
-                  <span>Tech Experimentation</span>
+                  <span>Usability testing and iterative design</span>
                 </li>
               </ul>
             </motion.div>

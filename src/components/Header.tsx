@@ -145,7 +145,7 @@ const Header = () => {
       {/* Subtle gradient overlay for better contrast */}
       <div className="absolute inset-0 bg-white/10 dark:bg-gray-900/10 backdrop-blur-[1px] z-[2]" />
 
-      {/* Content */}
+      {/*
       <motion.div
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -153,7 +153,7 @@ const Header = () => {
         className="relative mb-4 text-sm uppercase tracking-[4px] text-portfolio-primary dark:text-portfolio-accent z-10"
       >
         Welcome to my portfolio
-      </motion.div>
+      </motion.div> */}
       
       <motion.h1 
         initial={{ y: -20, opacity: 0 }}
@@ -181,9 +181,13 @@ const Header = () => {
               2000,
               'App Designer',
               2000,
+              'Prototyping',
+              2000,
               'UX Researcher',
               2000,
-              'Design System Specialist',
+              'Design Systems',
+              2000,
+              'Product Designer',
               2000,
             ]}
             wrapper="span"
@@ -208,7 +212,7 @@ const Header = () => {
         </Button>
         <Button variant="outline" size="lg" className="ml-4 dark:text-white dark:border-gray-700 dark:hover:bg-gray-800" asChild>
           <a 
-            href="https://drive.google.com/file/d/1S_uVnqRy9VsowFIUL6_3TruCbhyHSULS/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1auxhRWWrNSwF8m5Zy--vJUhEYqkoPu_q/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
