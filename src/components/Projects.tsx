@@ -14,7 +14,6 @@ const Projects = () => {
         "Community & Challenges",
         "Meditation & Mindfulness",
         "Gamification Elements",
-        "Wearable Device Integration"
       ],
       tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
       image: "public/project/project1.png",
