@@ -4,32 +4,21 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Projects = () => {
   const projects = [
     {
-      title: "Pixagram - Social AI Image Generator",
-      description: "A social platform for AI-powered image generation with interactive features",
+      title: "Empowering Your Wellness Journey",
+      description: "This UI/UX case study by Neet Zadafiya presents a holistic fitness application designed to empower users on their wellness journey. The app focuses on intuitive navigation, personalized experiences, and motivational features to foster sustainable healthy habits. Through meticulous user research and iterative design, this project addresses common pain points in existing fitness solutions, offering a seamless and engaging platform for tracking progress, managing workouts, and connecting with a supportive community. The goal was to create a visually appealing and highly functional app that users genuinely love to integrate into their daily lives, transforming fitness goals into achievable realities.",
       features: [
-        "Custom style selection",
-        "Multiple aspect ratio support",
-        "Social image exploration",
-        "Chat-like image generation interface"
+        "Personalized Workout Plans",
+        "Intuitive Progress Tracking",
+        "Nutrition & Hydration Log",
+        "Goal Setting & Reminders",
+        "Community & Challenges",
+        "Meditation & Mindfulness",
+        "Gamification Elements",
+        "Wearable Device Integration"
       ],
-      tags: ["Next.js", "AI", "TypeScript", "Tailwind CSS"],
-      image: "https://res.cloudinary.com/dszdqpahf/image/upload/v1749537623/image_generator/screenshots/rr4pd40eitrn6mqturpz.png",
-      link: "https://prit1410.github.io/pixagram/pixagram.html"
-    },
-    {
-      title: "E-Learning Website",
-      description: "Built a full-stack website using HTML, CSS, JavaScript & Firebase",
-      features: ["User authentication", "Course dashboard", "Real-time database"],
-      tags: ["HTML", "CSS", "JavaScript", "Firebase"],
-      image: "https://res.cloudinary.com/dszdqpahf/image/upload/v1749538328/thumbnail/fza5zbq0gzup3evc76kd.png"
-    },
-    {
-      title: "ExpeneVista – AI Budget Management System",
-      description: "Flutter application with modern UI and AI integrations",
-      features: ["Expense tracking", "AI Suggestions", "Analytics and Chart view"],
-      tags: ["Flutter", "Firebase", "AI", "SQLite"],
-      image: "https://res.cloudinary.com/dszdqpahf/image/upload/v1753249045/Wil_dnnt6q.png",
-      link: "https://prit1410.github.io/expensevista/expensevista.html"
+      tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
+      image: "public/project/project1.png",
+      link: "https://www.figma.com/design/ehteVyMbP2tA9gLWlqxN92/Fitness-app?node-id=206-281&t=8DhhxWZ6Vg5vqZF5-1"
     }
   ];
 
@@ -55,14 +44,14 @@ const Projects = () => {
             >
               <a href={project.link} className="block h-full" target="_blank" rel="noopener noreferrer">
                 <Card className="overflow-hidden card-hover border-portfolio-primary/10 h-full cursor-pointer transition-transform duration-300 hover:scale-[1.02]">
-                  <div className="relative aspect-[16/9] overflow-hidden">
-                    <img 
-                      src={project.image} 
-                      alt={project.title} 
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  <div className="relative overflow-hidden flex items-center justify-center bg-gray-50 dark:bg-gray-800">
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="max-w-full h-auto object-contain transition-all duration-300"
                       loading="lazy"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-end pointer-events-none">
                       <div className="p-4 text-white">
                         <h3 className="text-xl font-semibold">{project.title}</h3>
                       </div>
