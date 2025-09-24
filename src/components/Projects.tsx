@@ -16,7 +16,7 @@ const Projects = () => {
         "Gamification Elements",
       ],
       tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
-      image: "public/project/project1.png",
+      image: "/project/project1.png",
       link: "https://www.figma.com/design/ehteVyMbP2tA9gLWlqxN92/Fitness-app?node-id=206-281&t=8DhhxWZ6Vg5vqZF5-1"
     }
   ];
