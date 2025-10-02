@@ -8,31 +8,32 @@ const Projects = () => {
       description: "This UI/UX case study by Neet Zadafiya presents a holistic fitness application designed to empower users on their wellness journey. The app focuses on intuitive navigation, personalized experiences, and motivational features to foster sustainable healthy habits. Through meticulous user research and iterative design, this project addresses common pain points in existing fitness solutions, offering a seamless and engaging platform for tracking progress, managing workouts, and connecting with a supportive community. The goal was to create a visually appealing and highly functional app that users genuinely love to integrate into their daily lives, transforming fitness goals into achievable realities.",
       features: [
         "Personalized Workout Plans",
-        "Intuitive Progress Tracking",
+        " Progress Tracking",
         "Nutrition & Hydration Log",
         "Goal Setting & Reminders",
         "Community & Challenges",
         "Meditation & Mindfulness",
         "Gamification Elements",
       ],
-      tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
+      tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
       image: "/project/project1.png",
       link: "https://www.figma.com/design/ehteVyMbP2tA9gLWlqxN92/Fitness-app?node-id=206-281&t=8DhhxWZ6Vg5vqZF5-1"
     }, {
-      title: "Job Portal Deshboard",
-      description: "This UI/UX case study by Neet Zadafiya presents a holistic fitness application designed to empower users on their wellness journey. The app focuses on intuitive navigation, personalized experiences, and motivational features to foster sustainable healthy habits. Through meticulous user research and iterative design, this project addresses common pain points in existing fitness solutions, offering a seamless and engaging platform for tracking progress, managing workouts, and connecting with a supportive community. The goal was to create a visually appealing and highly functional app that users genuinely love to integrate into their daily lives, transforming fitness goals into achievable realities.",
+      title: "Job Portal Dashboard",
+      description:"A Job Portal Dashboard designed to simplify the hiring and job search experience. The focus is on clear navigation, intuitive design, and quick access to essential features like job applications, saved jobs, recommendations, and notifications. The goal was to create a visually engaging, user-friendly, and efficient dashboard that helps users manage their career journey with ease.",
       features: [
-        "Personalized Workout Plans",
-        "Intuitive Progress Tracking",
-        "Nutrition & Hydration Log",
-        "Goal Setting & Reminders",
-        "Community & Challenges",
-        "Meditation & Mindfulness",
-        "Gamification Elements",
+        "Profile Overview & Resume Insights",
+        "Applied Jobs Tracking",
+        "Saved & Recommended Jobs",
+        "Advanced Search & Filters",
+        "Notifications & Alerts",
+        "Dashboard Analytics & Insights",
+        "Settings & Personalization",
       ],
       tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
       image: "/project/project2.png",
-      link: "https://www.figma.com/design/ehteVyMbP2tA9gLWlqxN92/Fitness-app?node-id=206-281&t=8DhhxWZ6Vg5vqZF5-1"
+      link: ""
+      //links past hear for the project
     }
      ];
 
