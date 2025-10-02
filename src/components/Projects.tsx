@@ -18,8 +18,23 @@ const Projects = () => {
       tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
       image: "/project/project1.png",
       link: "https://www.figma.com/design/ehteVyMbP2tA9gLWlqxN92/Fitness-app?node-id=206-281&t=8DhhxWZ6Vg5vqZF5-1"
+    }, {
+      title: "Job Portal Deshboard",
+      description: "This UI/UX case study by Neet Zadafiya presents a holistic fitness application designed to empower users on their wellness journey. The app focuses on intuitive navigation, personalized experiences, and motivational features to foster sustainable healthy habits. Through meticulous user research and iterative design, this project addresses common pain points in existing fitness solutions, offering a seamless and engaging platform for tracking progress, managing workouts, and connecting with a supportive community. The goal was to create a visually appealing and highly functional app that users genuinely love to integrate into their daily lives, transforming fitness goals into achievable realities.",
+      features: [
+        "Personalized Workout Plans",
+        "Intuitive Progress Tracking",
+        "Nutrition & Hydration Log",
+        "Goal Setting & Reminders",
+        "Community & Challenges",
+        "Meditation & Mindfulness",
+        "Gamification Elements",
+      ],
+      tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
+      image: "/project/project2.png",
+      link: "https://www.figma.com/design/ehteVyMbP2tA9gLWlqxN92/Fitness-app?node-id=206-281&t=8DhhxWZ6Vg5vqZF5-1"
     }
-  ];
+     ];
 
   return (
     <section id="projects" className="section-container bg-muted/30">
