@@ -43,8 +43,8 @@ const Projects = () => {
         "Simplified checkout flow",
         "Dark/light mode for better usability"
       ],
-      tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
-      image: "/project/project2.png",
+      tags: ["UI/UX Design", "Food Delivery App", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study"],
+      image: "/project/project3.png",
       link: ""
       //links past hear for the project
     }
