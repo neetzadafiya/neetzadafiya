@@ -45,7 +45,7 @@ const Projects = () => {
       ],
       tags: ["UI/UX Design", "Food Delivery App", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study"],
       image: "/project/project3.png",
-      link: ""
+      link: "https://www.figma.com/design/0MKnvYO4QlBZ7wahMQB3tL/Food-Delivery?node-id=0-1&t=vOGO34vQdWP19J4V-1"
       //links past hear for the project
     }
      ];
