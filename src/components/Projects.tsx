@@ -34,6 +34,19 @@ const Projects = () => {
       image: "/project/project2.png",
       link: ""
       //links past hear for the project
+    },
+    {
+      title: "Food Delivery App",
+      description:"Minimal and fast food ordering app prototype focusing on convenience.",
+      features: [
+        "Personalized recommendations",
+        "Simplified checkout flow",
+        "Dark/light mode for better usability"
+      ],
+      tags: ["UI/UX Design", "Fitness App", "Health & Wellness", "Mobile App", "Product Design", "User Experience", "User Interface", "Case Study", "Figma", "Wireframing", "Prototyping", "Interaction Design", "Dashboard Design", "Gamification", "Personalized Fitness", "Digital Health"],
+      image: "/project/project2.png",
+      link: ""
+      //links past hear for the project
     }
      ];
 
